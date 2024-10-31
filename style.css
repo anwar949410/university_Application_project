@@ -1,0 +1,263 @@
+/* header */
+
+body{
+margin: 0;
+font-family: "Anton", serif;
+
+
+}
+nav{
+
+    width: 80%;
+    margin: 0 auto;
+
+}
+
+header{
+
+background-color: aliceblue;
+
+margin-top: 10px;
+
+}
+.top_row,.top_left,.top_right{
+
+display:  flex;
+
+justify-content: space-between;
+
+align-items: center;
+
+
+}
+
+.bottom_row{
+background-color: black;
+display: flex;
+justify-content: space-between;
+
+height: 50px;
+align-items: center;
+align-items: center;
+
+}
+.bottom_row input{
+
+height: 30px;
+border-radius: 40px;
+
+background-color: black;
+
+color: whitesmoke;
+}
+
+
+.top_row{
+gap: 30px;
+
+align-items: center;
+
+
+}
+
+.top_left,.top_right{
+width: 50%;
+
+}
+.top_left div,.top_right div{
+
+display: flex;
+flex-direction: column;
+
+gap: 10px;
+
+}
+
+.title{
+
+    font-size: 30px;
+    font-weight: bolder;
+
+    letter-spacing: 5px;
+}
+
+.sub_title{
+
+letter-spacing: 3px;
+
+}
+
+.email_type,.call{
+font-size: 25px;
+
+}
+
+.email_addr,.number{
+
+    opacity: 0.5;
+}
+.btn{
+
+display: flex;
+
+justify-content: center;
+height: 100%;
+
+
+}
+ .btn button,button{
+background-color: red;
+color: whitesmoke;
+width: 100px;
+padding: 10px;
+border-radius: 5px;
+
+font-size: 15px;
+
+ }
+
+ button:hover{
+    filter: brightness(150);
+    cursor: pointer;
+ }
+
+ ul{
+list-style: none;
+padding: 0;
+
+display: flex;
+align-items:center;
+
+gap: 30px;
+/* background-color: black; */
+color: aliceblue;
+
+
+padding-left: 10px;
+
+letter-spacing: 3px;
+
+font-weight: 100;
+
+font-family: monospace;
+
+font-size: 20px;
+ }
+
+ ul li:hover{
+
+    filter: brightness(110%);
+    color: red;
+    cursor: pointer;
+ }
+
+
+
+ /* main */
+
+
+
+ main{
+height: 700px;
+display: flex;
+align-items: center;
+
+background-image: url('https://cdn.britannica.com/17/83817-050-67C814CD/Mount-Everest.jpg');
+ 
+background-repeat: no-repeat;
+
+background-size: cover;
+
+background-position:  center center;
+
+ }
+
+ main div{
+
+width: 40%;
+
+
+ }
+
+.container{
+
+
+width: 80%;
+
+margin: 0 auto;
+}
+
+ main div h1{
+font-size: 50px;
+ 
+color: aqua;
+letter-spacing: 3px;
+
+text-shadow: 2px 2px black;
+
+ }
+
+ main div p{
+color:aqua ;
+
+letter-spacing: 3px;
+
+font-size: 20px;
+
+ }
+
+
+ 
+
+ /* section */
+
+
+ section{
+display: flex;
+height: 465px;
+
+ }
+
+
+section div{
+
+    width: 25%;
+    text-align: center;
+    padding: 10px;
+
+    display: flex;
+
+    flex-direction: column;
+    justify-content: center;
+}
+
+ .red{
+
+ background-color: red;  
+ 
+ color:white;
+
+ padding: 10px;
+
+ text-align: center;
+
+ letter-spacing: 2px;
+ }
+ .black{
+
+background-color: black;
+
+color: white;
+
+padding: 10px;
+
+align-items: center;
+letter-spacing: 2px;
+ }
+
+ section h1{
+
+font-size: 30px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+ }
